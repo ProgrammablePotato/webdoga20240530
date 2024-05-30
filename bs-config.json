@@ -1,6 +1,6 @@
 {
   "server": [
-    "src",
+    "app",
     "node_modules/bootstrap/dist/css",
     "node_modules/bootstrap/dist/js"
   ],
