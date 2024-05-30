@@ -1,3 +1,12 @@
+<!--
+File: valami.html
+Author: Mihelik Tamás
+Copyright: 2021, Mihelik Tamás
+Group: Szoft I/1/N
+Date: 2024-05-30
+Github: https://github.com/ProgrammablePotato/
+Licenc: GNU GPL
+-->
 
 <!DOCTYPE html>
 <html lang="hu">
@@ -10,9 +19,33 @@
   </head>
   <body>
     <div class="container">
-      <h1>Sinto Project</h1>
-      <p>This is a default index.html file, which was created by the sin command.</p>
-    </div>
+      <h1>Ellipszoid térfogata</h1>
+      <div class="form">
+        <div class="input">
+          <label for="ain" class="form-label">A tengely hossza:</label>
+          <input type="text" class="form-control"
+          id="ain">
+        </div>
+        <div class="input">
+          <label for="bin" class="form-label">B tengely hossza:</label>
+          <input type="text" class="form-control"
+          id="bin">
+        </div>
+        <div class="input">
+          <label for="cin" class="form-label">C tengely hossza:</label>
+          <input type="text" class="form-control"
+          id="cin">
+        </div>
+        <div>
+          <button class="btn btn-primary mt-2"
+          id="Calcbutton">Számítás</button>
+        </div>
+        <div class="input">
+          <label for="vol" class="form-label">Térfogat:</label>
+          <input type="text" class="form-control"
+          id="vol">
+        </div>
+      </div>
     <script type="module" src="app.js"></script>
   </body>
 </html>
